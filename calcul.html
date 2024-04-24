@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcul</title>
+    <link rel="stylesheet" href="calcul.css">
+</head>
+<body>
+   <div class="calc">
+    <input type="text" placeholder="0" id="calc">
+    <button onclick="Clear(document.getElementById('calc'))">cl</button>
+    <button onclick="Clear(document.getElementById('calc'))">del</button>
+    <button onclick="display(document.getElementById('calc'), '%')">%</button>
+    <button onclick="display(document.getElementById('calc'), '/')">/</button>
+    <button onclick="display(document.getElementById('calc'), '7')">7</button>
+    <button onclick="display(document.getElementById('calc'), '8')">8</button>
+    <button onclick="display(document.getElementById('calc'), '9')">9</button>
+    <button onclick="display(document.getElementById('calc'), '*')">*</button>
+    <button onclick="display(document.getElementById('calc'), '4')">4</button>
+    <button onclick="display(document.getElementById('calc'), '5')">5</button>
+    <button onclick="display(document.getElementById('calc'), '6')">6</button>
+    <button onclick="display(document.getElementById('calc'), '+')">+</button>
+    <button onclick="display(document.getElementById('calc'), '1')">1</button>
+    <button onclick="display(document.getElementById('calc'), '2')">2</button>
+    <button onclick="display(document.getElementById('calc'), '3')">3</button>
+    <button onclick="display(document.getElementById('calc'), '-')">-</button>
+    <button onclick="display(document.getElementById('calc'), '0')">0</button>
+    <button onclick="display(document.getElementById('calc'), '.')">.</button>
+    <button onclick="calc(document.getElementById('calc'))" class="po">=</button>
+   </div> 
+   <script src="calcul.js"></script>
+</body>
+</html>
